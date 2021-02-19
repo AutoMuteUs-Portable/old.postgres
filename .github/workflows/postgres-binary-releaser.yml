@@ -6,7 +6,7 @@ on:
       - "*"
 
 jobs:
-    postgres-binary-releaser:
+  postgres-binary-releaser:
     runs-on: windows-latest
     steps:
       - name: Checkout
